@@ -4,21 +4,20 @@
 
 - Pseudocode of Pricing components of Plato in calculating and charging Plato Users/Organizations.
 ```
-for organizations:
+for Organizations:
 
 ( Monthly Rate or Annual Rate of current Plan ) + ( Additional User Seat above current plan limit * Charge )  
   
-for solo Users:
+for Solo Users:
 
 Monthly Rate of solo plan type
 ```
 A list of Plato's dependencies : database, server, and 3rd party packages.
-# User Authentication
+
   gem 'devise'
-# User Authentication with Facebook
   gem 'omniauth-facebook'
-# Development ENV Variables
-  gem 'figaro'
+  gem 'sqlite3'
+  
   
 
 

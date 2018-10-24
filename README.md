@@ -18,9 +18,12 @@ Monthly Rate of solo plan type
 A list of Plato's dependencies : database, server, and 3rd party packages.
 
   gem 'devise'
+  
   gem 'omniauth-facebook'
+
   gem 'sqlite3'
   
   
+
 
 

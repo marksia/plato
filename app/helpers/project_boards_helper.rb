@@ -1,0 +1,2 @@
+module ProjectBoardsHelper
+end

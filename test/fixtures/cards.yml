@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_board: one
+  title: MyText
+  description: MyText
+  color: MyString
+
+two:
+  project_board: two
+  title: MyText
+  description: MyText
+  color: MyString

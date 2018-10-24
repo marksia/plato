@@ -1,0 +1,22 @@
+<%= form_with(model: project_board, local: true) do |form| %>
+  <% if project_board.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(project_board.errors.count, "error") %> prohibited this project_board from being saved:</h2>
+
+      <ul>
+      <% project_board.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title, id: :project_board_title %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

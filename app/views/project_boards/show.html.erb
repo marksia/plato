@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @project_board.title %>
+</p>
+
+<%= link_to 'Edit', edit_project_board_path(@project_board) %> |
+<%= link_to 'Back', project_boards_path %>

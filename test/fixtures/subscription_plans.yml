@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 1
+  plan: 1
+  number_of_licenses: 1
+  monthly_charge: 1.5
+  annual_charge: 1.5
+
+two:
+  type: 1
+  plan: 1
+  number_of_licenses: 1
+  monthly_charge: 1.5
+  annual_charge: 1.5
